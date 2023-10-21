@@ -1,0 +1,53 @@
+.card {
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  direction: rtl;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+.sign-in {
+  display: flex;
+  column-gap: 0.5rem;
+  color: #ffffff;
+}
+.sign-in button {
+  flex: 1;
+  outline: none;
+  border: none;
+  padding: 8px;
+  background-color: #0000df;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+}
+.teacher {
+  display: flex;
+  justify-content: space-between;
+}
+.parent-exclamation {
+  background-color: #9f9fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.exclamation {
+  background-color: #1f1fff;
+  border-radius: 8px;
+}

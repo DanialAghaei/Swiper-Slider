@@ -1,0 +1,62 @@
+.sidebar {
+  width: 30%;
+  direction: rtl;
+  display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+}
+.sidebar h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #5275ff 0%, #aacfff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.sidebar p {
+  line-height: 1.5;
+  color: #3030309d;
+}
+.ArrowLeft {
+  font-size: 22px;
+}
+.show-all {
+  color: #3838ff;
+  background-color: #a3a3ff7c;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  align-self: start;
+  transition: all 0.4s;
+}
+.show-all:hover {
+  border-radius: 8px;
+  column-gap: 1.5rem;
+}
+.swiper-navigation {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.8rem;
+  font-size: 2.7rem;
+  align-self: end;
+}
+.caret {
+  box-sizing: content-box;
+  font-size: 32px;
+  background-color: #b0c0ff;
+  color: #1947ff;
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.caret:hover {
+  background-color: #1947ff;
+  color: #ffffff;
+}
